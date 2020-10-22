@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calci-card{
+    position: relative;
+    display: inline-block;
+    left: 30%;
+    margin-top: 10%;
+    padding: 15px;
+    background-color: rgb(8, 190, 245);
+    border-radius: 30px;
+    height: auto;
+}
+.calci-card h2{
+    text-align: center;
+}
+.calci-card .bill-card{
+    display: inline-block;
+    width: auto;
+    padding: 25px;
+    border: 1px solid rgb(62, 226, 190);
+    border-radius: 10px;
+    background-color: white;
+    margin: 15px;
+}
+.calci-card .bill-card  .bill-input{
+    display: inline-block;
+    padding: 10px;
+    height: 15px;
+    width: 290px;
+    margin: 20px;
+    margin-left: 50px;
+    border: 2px solid rgb(238, 233, 233);
+    border-radius: 10px;
+    background-color:transparent;
+}
+.calci-card .bill-card  .tip-input{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 15px;
+    background: rgb(8, 190, 245);
+    outline: none;
+}
+.calci-card .bill-card .tip-input::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #030303; /* Green background */
+    
+  }
